@@ -1,0 +1,39 @@
+ul, #myUL {
+    list-style-type: none;
+}
+
+#myUL {
+    margin: 0;
+    padding: 0;
+}
+
+.caret {
+    cursor: pointer;
+    user-select: none;
+    color: #ad543d;
+}
+
+.caret::before {
+    content: "\25B6";
+    color: #ad543d;
+    display: inline-block;
+    margin-right: 6px;
+}
+
+.caret-down::before {
+    transform: rotate(90deg);
+}
+
+.nested {
+    display: block;
+}
+
+.active {
+    display: block;
+}
+
+.bestoffer {
+    color: blue !important;
+    padding: 10px;
+    font-weight: bold;
+}
